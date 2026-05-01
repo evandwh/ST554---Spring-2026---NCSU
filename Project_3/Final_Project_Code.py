@@ -32,5 +32,5 @@ for i in range(20):
     # Log Step
     print(f"Wrote batch {i} to {file_path}")
 
-    # Wait for next sample (20 is said to do better than 10)
-    time.sleep(20)
+    # Wait for next sample (20 is said to do better than 10, but 15 worked better than 20 for me)
+    time.sleep(15)
